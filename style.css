@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+header#site-header {
+  position: absolute;
+  top: 0;
+  bottom: 805px;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 105px;
+  width: 941px;
+  text-align: right;
+}
+
+.fa {
+  height: 31px;
+  width: 26px;
+  display: inline-block;
+  text-align: center;
+  font-size: 31px;
+  line-height: 31px;
+  word-spacing: 0;
+  cursor: pointer;
+}
+.overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb (6 3 0 / 77%);
+  display: inline-block;
+  z-index: 9999;
+  opacity: 1;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.menu-list {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  height: 384px;
+  width: 1886px;
+  position: relative;
+  top: 455px;
+  bottom: -455px;
+  right: 0;
+  left: 0;
+  display: block;
+  color: #404040;
+}
+
+.menu-list a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: 48px;
+  width: 131px;
+
+  color: white;
+}
+.show {
+  display: block;
+  display: flex;
+  opacity: 1;
+  transform: scale(1);
+}
+
+header .menu-list {
+  display: flex;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+header .menu-list ul {
+  list-style-type: none;
+}
+
+.header_logo {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 20px;
+  padding: 40px 0 20px 0;
+  align-items: center;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+  height: 43px;
+  width: 795px;
+  display: block;
+  clear: both;
+}
+
+a {
+  text-align: left;
+}
+.right-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  height: 45px;
+  width: 354px;
+}
+.right-content .search-bar {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+}
+.right-content .search-bar .search .search-input {
+  display: flex;
+  flex: 1;
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  font-weight: 400;
+  border-radius: 6px;
+  position: relative;
+  right: 0;
+  outline: 0;
+  border: 1px solid;
+}
+
+.container .header_logo .logo .logo-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+}
+.right-content .search-bar .search .search-icon {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.banner {
+  background-size: cover;
+
+  background-image: linear-gradient(
+      to right,
+      rgb(236 98 6 / 98%),
+      rgb(5 3 0 / 83%)
+    ),
+    url(./img/banner2.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 300px;
+}
+.banner .breadcrumbs-custom-path {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1903px;
+  height: 108px;
+  padding: 81px 0 0 0;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner .breadcrumbs-custom-path a {
+  color: #ff6608;
+  text-decoration: none;
+}
+
+/* error */
+.error-grid .container {
+  height: 495px;
+  width: 1903px;
+  padding: 48px 0 48px 0;
+  line-height: 24px;
+  max-width: 1200px;
+}
+
+.error {
+  height: 495px;
+  width: 1200px;
+  margin: 0 352px 0 352px;
+  padding: 24px 15px 24px 15px;
+  max-width: 1200px;
+}
+
+.error-grid h1 {
+  font-weight: 700;
+  font-size: 130px;
+  line-height: 156px;
+  height: 156px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 600px;
+}
+
+.error-grid h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+  width: 600px;
+}
+.error-grid p {
+  font-size: 18px;
+  line-height: 28px;
+  height: 56px;
+  width: 600px;
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+.error-grid .form-control {
+  padding: 12px 120px 12px 25px;
+  font-size: 18px;
+  line-height: 28px;
+  height: 55px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  vertical-align: middle;
+  display: block;
+  font-weight: 500;
+}
+.error {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.error-grid .form-control:focus {
+  box-shadow: none;
+  border: 1px solid;
+}
+.error-grid button.btn.search {
+  color: white;
+  background-color: #ff6608;
+  vertical-align: middle;
+  font-size: 18px;
+  padding: 0 40px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  border: none;
+  position: absolute;
+  right: 730px;
+  bottom: 226px;
+  height: 54px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.error-grid .back-button {
+  font-weight: 600;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 0;
+  margin: 48px 0 0 0;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  height: 27px;
+  width: 148px;
+  margin: 48px 0 0 0;
+  line-height: 27px;
+}
+/* footer */
+.footer-29-main {
+  background-color: black;
+}
+.footer-29-main py-5 {
+  height: 410px;
+  width: 1302px;
+  padding: 48px 0 48px 0;
+}
+.footer-29-main .footer-logo {
+  text-align: left;
+}
+.footer-29-main .footer-logo .navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer-29-main h6.footer-title-29 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-29-main input[type="email"] {
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+.footer-29-main .subscribe input [type="email"]:focus {
+  border: 1px solid var();
+}
+.footer-background .subscribe mt-4 {
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  color: white;
+  border-radius: 6px;
+}
+
+.footer-background .footer-list-29 ul li {
+  .footer-list-29;
+}

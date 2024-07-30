@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+header#site-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.w3_hny_header {
+  display: grid;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  height: 105px;
+  width: 1170px;
+  padding: 40px 0 20px 0;
+}
+h1 {
+  display: block;
+  clear: both;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+}
+.logo-brand {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  display: inline;
+  cursor: pointer;
+}
+
+.w3menu-right-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.w3menu-right-content .search-bar {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.w3menu-right-content .search-bar .search .search_input {
+  display: flex;
+  flex: 1;
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  font-weight: 400;
+  position: relative;
+  right: 0;
+  outline: 0;
+  border: 1px;
+}
+
+.w3menu-right-content .search-bar .search .search_icon {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .w3menu-right-content .search-bar {
+    display: none;
+  }
+}
+
+h1 a.logo-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.w3lhny-banner {
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: initial;
+  background-attachment: fixed;
+  min-height: 700px;
+  height: 700px;
+}
+
+.w3lhny-banner .banner-content {
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+
+.w3lhny-banner .bannerhny-info {
+  max-width: 600px;
+  text-align: left;
+}
+
+.w3lhny-banner .bannerhny-info h3 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+}
+
+.w3lhny-banner .bannerhny-info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+}
+@media (max-width: 1190px) {
+  .w3lhny-banner .bannerhny-info h3 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+}
+@media (max-width: 992px) {
+  .w3lhny-banner .bannerhny-info h3 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+}
+@media (max-width: 800px) {
+  .w3lhny-banner .bannerhny-info h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .w3lhny-banner {
+    min-height: 600px;
+    height: 600px;
+  }
+}
+
+/* banner IMG */
+.w3l-innerpage {
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgb(236 98 6 / 98%),
+      rgb(5 3 0 / 83%)
+    ),
+    url(./img/banner2.jpg);
+
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 350px;
+}
+
+.w3l-innerpage .breadcrumbs-custom-path li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+.w3l-innerpage .breadcrumbs-custom-path li.active {
+  color: white;
+}
+.w3l-innerpage .breadcrumbs-custom-path li span.fa {
+  font-size: 12px;
+}
+.w3l-innerpage .breadcrumbs-custom-path a:hover {
+  color: ;
+}
+.w3l-innerpage ul.breadcrumbs-custom-path {
+  padding-top: 81px;
+}
+@media (max-width: 736px) {
+  .w3l-innerpage {
+    min-height: 200px;
+  }
+  .w3l-innerpage ul.breadcrumbs-custom-path {
+    padding-top: 20px;
+  }
+}
+
+.middle::before {
+  content: "";
+  background: rgb(16 15 19 / 66%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.welcome-left {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.welcome-left h3 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  color: white;
+  max-width: 800px;
+}
+.welcome-left .sub-titlehny {
+  color: #ddd;
+}
+.welcome-left span.watch {
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.welcome-left span.video;
