@@ -769,4 +769,125 @@ h1 a.logo-brand {
   -ms-background-size: cover;
   position: relative;
   z-index: 1;
+  height: 488px;
+  width: 1903px;
+  padding: 48px 0 48px 0;
+}
+.middle:before {
+  content: "";
+  background: rgb(16 15 19 / 66%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.ServicesPageCover {
+  height: 392px;
+  width: 1200px;
+  margin: 0 352px 0 352px;
+  max-width: 1200px;
+}
+
+.welcome-left {
+  height: 360px;
+  width: 700px;
+  margin: 0 235px 0 235px;
+  padding: 48px 0 48px 0;
+  max-width: 700px;
+}
+.hny-title {
+  color: white;
+  height: 110px;
+  width: 700px;
+  padding: 0 48px 0 48px;
+  max-width: 800px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 55px;
+  text-align: center;
+}
+.mid-buttons {
+  height: 154px;
+  width: 700px;
+  padding: 48px 0 48px 0;
+  line-height: 24px;
+  text-align: center;
+}
+.button-rm {
+  height: 58px;
+  width: 198.516px;
+  border: 2px solid white;
+  padding: 12px 45px 12px 45px;
+  margin: 48px 24px 0 0;
+  vertical-align: middle;
+  text-align: center;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+}
+.button-cu {
+  height: 58px;
+  width: 198.516px;
+  border: 2px solid #ff6600;
+  padding: 12px 45px 12px 45px;
+  margin: 48px 24px 0 0;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ff6600;
+  text-decoration: none;
+  font-weight: 700;
+}
+#pricing {
+  height: 689.812px;
+  width: 1903px;
+  padding: 48px 0 48px 0;
+}
+.ServicesPageMenuItems {
+  height: 593.812px;
+  width: 1200px;
+  margin: 0 352px 0 352px;
+  padding: 48px 15px 48px 15px;
+  max-width: 1200px;
+}
+.title-subhny {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+  color: #ff6600;
+  height: 30px;
+  width: 1170px;
+}
+.title-w3l {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  height: 48px;
+  width: 1170px;
+  margin: 0 0 48px 0;
+}
+
+.menu-section {
+  height: 371.812px;
+  width: 600px;
+  padding: 0 48px 0 15px;
+  min-height: auto;
+  max-width: 50%;
+  text-align: left;
+}
+.mb-4 {
+  height: 74.9531px;
+  width: 537px;
+  margin: 0 0 24px 0;
+}
+.row-menu-section {
+  height: 36.9531px;
+  width: 537px;
+  border-bottom: 2px dotted #bbbbbb;
+  padding: 0 0 10px 0;
+  display: flex;
 }
