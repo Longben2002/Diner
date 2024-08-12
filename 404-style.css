@@ -411,7 +411,205 @@ h1 a.logo-brand {
   color: #ff6600;
 }
 
+/* body */
+/* .w3l-error-grid {
+  height: 591.594px;
+  width: 1903px;
+  padding: 48px 0 48px 0;
+}
+.w3l-error-grid h1 {
+  font-weight: 700;
+  font-size: 130px;
+  color: #232121;
+  letter-spacing: 5px;
+}
+.w3l-error-grid h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #232121;
+  font-weight: 600;
+}
+.w3l-error-grid .form-control {
+  color: #f7f7f7;
+  padding: 12px 120px 12px 25px;
+  font-size: 18px;
+  line-height: 28px;
+  height: 55px;
+  background: #ced4da;
+  border-radius: 6px;
+  display: block;
+  font-weight: 500;
+}
+.error-block {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.w3l-error-grid .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ff6600;
+}
+
+.w3l-error-grid button.btn.search {
+  color: #fff;
+  background: #ff6600;
+  font-size: 18px;
+  padding: 0 40px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  border: none;
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+/* height: 55px;
+  display: inline-block;
+  border-radius: 6px;
+} */
+*/ .w3l-error-grid {
+  height: 591.594px;
+  width: 1903px;
+  padding: 48px 0 48px 0;
+}
+.ErrorpageBlock {
+  height: 495.594px;
+  width: 1200px;
+  padding: 24px 15px 24px 15px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.ErrorpageBlock .error-block {
+  text-align: right;
+  height: 447.594px;
+  width: 600px;
+  max-width: 600px;
+}
+.error-block h1 {
+  height: 156px;
+  width: 750px;
+  font-size: 130px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 156px;
+  text-align: right;
+  color: rgb(35, 33, 33);
+}
+.error-block .fa-regular {
+  width: 116.438px;
+}
+.error-block h2 {
+  max-width: 1200px;
+  width: 730px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: rgb(35, 33, 33);
+  text-align: right;
+}
+.mt-4 {
+  font-size: 18px;
+  max-width: 1200px;
+  width: 1100px;
+  line-height: 28px;
+  color: rgb(22, 28, 45, 0.7);
+  max-width: 1200px;
+  text-align: center;
+}
+.form-inline {
+  max-width: 1200px;
+  height: 55px;
+  margin: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-control {
+  width: 300px;
+  height: 55px;
+  border: 1px solid #ced4da;
+  padding: 12px 100px 12px 25px;
+  margin-right: 20px;
+  margin-left: 250px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+}
+.btn-search {
+  background-color: #ff6600;
+  height: 55px;
+  width: 139px;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  border: 1px #ff6600;
+  position: absolute;
+  /* left: 360px; */
+  right: 780px;
+}
+.back-button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  height: 27px;
+  width: 148px;
+  margin: 48px 0 0 0;
+  color: black;
+}
+.back-button:hover {
+  color: #ff6600;
+}
+
+@media all and (max-width: 992px) {
+  .w3l-error-grid h1 {
+    font-size: 100px;
+  }
+}
+
+@media all and (max-width: 568px) {
+  .w3l-error-grid h1 {
+    font-size: 80px;
+  }
+}
+
+@media all and (max-width: 415px) {
+  .w3l-error-grid h2 {
+    font-size: 22px;
+  }
+}
+@media all and (max-width: 384px) {
+  .w3l-error-grid button.btn.search {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 /* footer */
+.w3l-copyright #movetop {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background: #ff6600;
+  padding: 0;
+  line-height: 36px;
+  border-radius: 35px;
+  transition: 0.3s ease-out;
+}
 
 .w3l-footer-29-main {
   height: 410px;
@@ -607,4 +805,40 @@ h1 a.logo-brand {
   width: 596px;
   font-size: 17px;
   padding: 0 15px 0 15px;
+}
+
+@media (max-width: 992px) {
+  .w3l-copyright .copy-footer-29 {
+    text-align: center;
+  }
+  .w3l-footer-29-main .main-social-footer-29 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .w3l-footer-29-main ul.list-btm-29 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .w3l-footer-29-main h6.footer-title-29 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .w3l-copyright .main-social-footer-29 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .w3l-footer-29-main .footer-list-29 ul li,
+  .w3l-footer-29-main
+    .midd-footer-29:nth-child(1)
+    .footer-list-29
+    ul
+    li:last-child {
+    margin-bottom: 8px;
+  }
+  .w3l-footer-29-main a.navbar-brand {
+    font-size: 26px;
+  }
 }
